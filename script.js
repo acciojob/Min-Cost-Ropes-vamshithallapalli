@@ -7,7 +7,7 @@ function mincost(arr)
 
 	let cost = 0;
 
-	while(heap.size > 1){
+	while(heap.length > 1){
 		let first = heap.shift();
 		let second = heap.shift();
 
