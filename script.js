@@ -15,11 +15,10 @@ function mincost(arr)
         cost += newRope;
 
 		heap.push(newRope);
-
-		heap.sort((a,b) => a-b);
-		
+        heap.sort((a,b) => a-b);
 	}
-	return cost;
+	
+	console.log(cost);
 }
 
 module.exports=mincost;
